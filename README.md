@@ -1,6 +1,6 @@
 # zeebe-dmn-moddle
 
-[![CI](https://github.com/camunda/zeebe-dmn-moddle/workflows/CI/badge.svg)](https://github.com/camunda/zeebe-bpmn-moddle/actions?query=workflow%3ACI)
+[![CI](https://github.com/camunda/zeebe-dmn-moddle/workflows/CI/badge.svg)](https://github.com/camunda/zeebe-dmn-moddle/actions?query=workflow%3ACI)
 
 This project defines the [Zeebe](https://zeebe.io) namespace extensions for DMN as a [moddle](https://github.com/bpmn-io/moddle) descriptor.
 

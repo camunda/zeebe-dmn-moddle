@@ -1,0 +1,29 @@
+{
+  "name": "zeebe",
+  "prefix": "zeebe",
+  "uri": "http://camunda.org/schema/zeebe/1.0",
+  "xml": {
+    "tagAlias": "lowerCase"
+  },
+  "associations": [],
+  "types": [
+    {
+      "name": "VersionTag",
+      "superClass": [
+        "Element"
+      ],
+      "meta": {
+        "allowedIn": [
+          "dmn:Decision"
+        ]
+      },
+      "properties": [
+        {
+          "name": "value",
+          "type": "String",
+          "isAttr": true
+        }
+      ]
+    }
+  ]
+}
