@@ -1,6 +1,6 @@
 {
   "name": "zeebe-dmn-moddle",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Zeebe moddle extensions for DMN",
   "scripts": {
     "all": "run-s lint test",
