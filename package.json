@@ -36,7 +36,7 @@
     "eslint-plugin-bpmn-io": "^2.3.1",
     "min-dash": "^5.1.0",
     "mocha": "^11.8.0",
-    "npm-run-all": "^4.1.2",
+    "npm-run-all2": "^9.0.3",
     "xsd-schema-validator": "^0.7.0"
   },
   "files": [
