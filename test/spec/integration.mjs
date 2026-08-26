@@ -1,8 +1,11 @@
-'use strict';
+import { createRequire } from 'node:module';
 
-var DmnModdle = require('dmn-moddle');
+import DmnModdle from 'dmn-moddle';
 
-var zeebeDescriptor = require('../../resources/zeebe');
+import { expect } from '../expect.mjs';
+
+const require = createRequire(import.meta.url);
+const zeebeDescriptor = require('../../resources/zeebe.json');
 
 
 describe('exports', function() {

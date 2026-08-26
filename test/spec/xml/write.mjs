@@ -1,14 +1,17 @@
-'use strict';
+import minDash from 'min-dash';
 
-var assign = require('min-dash').assign,
-    isFunction = require('min-dash').isFunction;
+import { expect } from '../../expect.mjs';
 
-var Helper = require('../../helper');
+import { createModdle } from '../../helper.mjs';
 
+const {
+  assign,
+  isFunction
+} = minDash;
 
 describe('write', function() {
 
-  var moddle = Helper.createModdle();
+  var moddle = createModdle();
 
 
   async function write(element, options, callback) {

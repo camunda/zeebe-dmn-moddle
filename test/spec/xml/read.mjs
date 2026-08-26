@@ -1,8 +1,9 @@
-'use strict';
+import { expect } from '../../expect.mjs';
 
-
-var readFile = require('../../helper').readFile,
-    createModdle = require('../../helper').createModdle;
+import {
+  createModdle,
+  readFile
+} from '../../helper.mjs';
 
 
 describe('read', function() {
