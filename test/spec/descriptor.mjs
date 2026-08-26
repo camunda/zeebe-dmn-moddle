@@ -1,10 +1,11 @@
-'use strict';
+import { createRequire } from 'node:module';
 
+import { expect } from '../expect.mjs';
+
+const require = createRequire(import.meta.url);
+const zeebeDescriptor = require('../../resources/zeebe.json');
 
 describe('descriptor', function() {
-
-  var zeebeDescriptor = require('../../resources/zeebe');
-
 
   it('should provide model', function() {
 
