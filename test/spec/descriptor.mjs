@@ -1,9 +1,6 @@
-import { createRequire } from 'node:module';
-
 import { expect } from '../expect.mjs';
 
-const require = createRequire(import.meta.url);
-const zeebeDescriptor = require('../../resources/zeebe.json');
+import zeebeDescriptor from '../../resources/zeebe.json' with { type: 'json' };
 
 describe('descriptor', function() {
 
