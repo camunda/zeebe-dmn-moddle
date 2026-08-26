@@ -4,7 +4,7 @@
   "description": "Zeebe moddle extensions for DMN",
   "scripts": {
     "all": "run-s lint test",
-    "lint": "eslint . --ext .mjs",
+    "lint": "eslint .",
     "dev": "npm test -- --watch",
     "test": "mocha --reporter=spec --recursive test"
   },
@@ -32,8 +32,8 @@
   "devDependencies": {
     "chai": "^6.2.2",
     "dmn-moddle": "^12.1.0",
-    "eslint": "^8.23.0",
-    "eslint-plugin-bpmn-io": "^0.14.1",
+    "eslint": "^9.39.5",
+    "eslint-plugin-bpmn-io": "^2.3.1",
     "min-dash": "^5.1.0",
     "mocha": "^11.8.0",
     "npm-run-all": "^4.1.2",
