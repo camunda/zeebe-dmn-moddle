@@ -1,13 +1,11 @@
-import minDash from 'min-dash';
+import {
+  assign,
+  isFunction
+} from 'min-dash';
 
 import { expect } from '../../expect.mjs';
 
 import { createModdle } from '../../helper.mjs';
-
-const {
-  assign,
-  isFunction
-} = minDash;
 
 describe('write', function() {
 

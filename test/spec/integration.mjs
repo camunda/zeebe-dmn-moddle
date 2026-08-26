@@ -1,6 +1,6 @@
 import { createRequire } from 'node:module';
 
-import DmnModdle from 'dmn-moddle';
+import { DmnModdle } from 'dmn-moddle';
 
 import { expect } from '../expect.mjs';
 

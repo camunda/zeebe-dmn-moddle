@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { createRequire } from 'node:module';
 
-import DmnModdle from 'dmn-moddle';
+import { DmnModdle } from 'dmn-moddle';
 
 const require = createRequire(import.meta.url);
 const zeebeDescriptor = require('../resources/zeebe.json');
